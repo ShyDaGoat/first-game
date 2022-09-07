@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="q2)dyGeu6qwI{MT6E_6v">mySprite</variable><variable type="KIND_SpriteKind" id="MsRWz@Tsff9rM=W5Gk5L">Player</variable><variable type="KIND_SpriteKind" id="4lb3vqJ5S0kSLlbC{)Q%">Projectile</variable><variable type="KIND_SpriteKind" id="l*3K:5jWS6fn9RpxAaJ4">Food</variable><variable type="KIND_SpriteKind" id="[,)/O=zr0T4z1GAK]ykz">Enemy</variable></variables><block type="pxt-on-start" id="[iO).zFTKt=Z*1602:C%" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="H0K-b5#pylr#Wy,]I[5^"><field name="VAR" id="q2)dyGeu6qwI{MT6E_6v">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="s%GLZAAN`aRenyqjlCP4"><value name="img"><shadow type="screen_image_picker" id="pyE,abC`lmL91~V(lkPK"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"pyE,abC`lmL91~V(lkPK"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="^F078ZjlYg=l?B$^?*=^"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="=y~VdKD7;rM.0zk7,Jfj"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="this"><block type="variables_get" id="m#6DTUD:hUOEC!66{gWg"><field name="VAR" id="q2)dyGeu6qwI{MT6E_6v">mySprite</field></block></value><value name="text"><shadow type="text" id="q]04P4(tBOiso_~MvodM"><field name="TEXT">:)</field></shadow></value><value name="timeOnScreen"><shadow type="timePicker" id="3I{AgX4`]wN+%,Y#aI%^"><field name="ms">500</field></shadow></value><value name="animated"><shadow type="logic_boolean" id=";gt.U:/MDjE,,PjIqT-w"><field name="BOOL">FALSE</field></shadow></value></block></next></block></statement></block></xml>
